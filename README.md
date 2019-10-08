@@ -1,12 +1,12 @@
 # Facepages
 
-[Facepages](https://facepages.herokuapp.com/ "Facepages") is result of a challenge to clone Facebook. It was created as the final project for The Odin Project's [Ruby on Rails](http://www.theodinproject.com/ruby-on-rails/final-project "Ruby on Rails Final Project") course.
+[Facepages](https://roger-facepages.herokuapp.com/ "Facepages") is result of a challenge to clone Facebook. It was created as the final project for The Odin Project's [Ruby on Rails](http://www.theodinproject.com/ruby-on-rails/final-project "Ruby on Rails Final Project") course.
 
 See the log in/sign up page below
 
 ![Facepages Log In/Sign Up page](/public/assets/images/login_signup.png "Facepages Log In/Sign Up page")
 
-### [_See Facepages on Heroku here_](https://facepages.herokuapp.com/ "Facepages")
+### [_See Facepages on Heroku here_](https://roger-facepages.herokuapp.com/ "Facepages")
 
 You are encouraged to create an account, and test the application.
 
@@ -45,7 +45,7 @@ The details of main features below states which main features have these enhance
 
 Authentication checks permit a non-logged in user to see only the log in/sign up page and static pages. Log in/sign up is done with [Devise](https://github.com/plataformatec/devise "Devise") including Facebook log in/sign up using [OmniAuth with Devise](https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview "OmniAuth: Overview").
 
-Static pages include: [_About_](https://facepages.herokuapp.com/about "About"), [_Contact/Help_](https://facepages.herokuapp.com/contact_help "Contact or Help"), [_Privacy Policy_](https://facepages.herokuapp.com/privacy "Privacy Policy"), and [_Terms of Service_](https://facepages.herokuapp.com/terms "Terms of Service").
+Static pages include: [_About_](https://roger-facepages.herokuapp.com/about "About"), [_Contact/Help_](https://roger-facepages.herokuapp.com/contact_help "Contact or Help"), [_Privacy Policy_](https://roger-facepages.herokuapp.com/privacy "Privacy Policy"), and [_Terms of Service_](https://roger-facepages.herokuapp.com/terms "Terms of Service").
 
 #### Friending
 
