@@ -1,5 +1,5 @@
 jQuery ->
-  dispatcher = new WebSocketRails 'dna-odinbook.herokuapp.com/websocket'
+  dispatcher = new WebSocketRails 'facepages.herokuapp.com/websocket'
   updates    = dispatcher.subscribe 'updates'
 
   dispatcher.bind 'new_notification', (data) ->

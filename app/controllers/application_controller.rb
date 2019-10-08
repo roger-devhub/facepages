@@ -27,7 +27,7 @@ class ApplicationController < ActionController::Base
   
 
   def configure_signup_flash user
-    msg = "Welcome to Odinbook! You have signed up successfully."
+    msg = "Welcome to Facepages! You have signed up successfully."
     msg += "#{view_context.link_to('Fill your profile and configure'\
            ' your account here', edit_profile_path(user.profile))}"
     flash[:notice]    = msg

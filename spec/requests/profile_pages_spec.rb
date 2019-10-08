@@ -22,7 +22,7 @@ describe "Profile Pages" do
       it { should have_checked_field("Yes") }
       it { should have_submit("Update Profile") }
       it { should have_link("Cancel") }
-      it { should have_button("Delete Odinbook Account") }
+      it { should have_button("Delete Facepages Account") }
 
       describe "profile picture" do
         it "accepts valid image files" do

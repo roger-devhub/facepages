@@ -34,7 +34,7 @@ module ApplicationHelper
   end
 
   def page_title(title)
-    (title.blank?) ? "Odinbook" : title
+    (title.blank?) ? "Facepages" : title
   end
 
   def resource_name

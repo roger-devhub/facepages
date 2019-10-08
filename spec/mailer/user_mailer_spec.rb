@@ -7,18 +7,18 @@ describe UserMailer do
     let(:mail) { UserMailer.welcome_email(user) }
 
     it 'has correct subject' do
-      expect(mail.subject).to eq('Welcome to Odinbook')
+      expect(mail.subject).to eq('Welcome to Facepages')
     end
     it 'has correct receiver' do
       expect(mail.to).to eq([user.email])
     end
     it 'has correct sender' do
-      expect(mail.from).to eq(['noreply@odinbook.com'])
+      expect(mail.from).to eq(['noreply@facepages.com'])
     end
     it 'has correct content' do
       expect(mail.body.encoded).to match(user.first_name)
       expect(mail.body.encoded).
-        to match("we hope you enjoy using Odinbook")
+        to match("we hope you enjoy using Facepages")
     end
     it 'delievers email' do
       expect{mail.deliver}.
@@ -31,13 +31,13 @@ describe UserMailer do
     let(:mail) { UserMailer.notification_email(notification) }
 
     it 'has correct subject' do
-      expect(mail.subject).to eq('New Notification from Odinbook')
+      expect(mail.subject).to eq('New Notification from Facepages')
     end
     it 'has correct receiver' do
       expect(mail.to).to eq([notification.user.email])
     end
     it 'has correct sender' do
-      expect(mail.from).to eq(['noreply@odinbook.com'])
+      expect(mail.from).to eq(['noreply@facepages.com'])
     end
     it 'has correct content' do
       expect(mail.body.encoded).to match(notification.user.first_name)

@@ -11,7 +11,7 @@ describe "User pages" do
       visit users_path
     end
 
-    it { should have_title("All Users | Odinbook") }
+    it { should have_title("All Users | Facepages") }
     it { should have_selector("h1", text: "All Users") }
 
     context "with multiple users" do
